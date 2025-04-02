@@ -1,0 +1,85 @@
+.zomatocontainer{
+    background: linear-gradient(to bottom,#ff1d04,#e77c64);
+    background-repeat: no-repeat;
+    height: 150vh;
+    font-family: Arial, sans-serif;
+    width: 130vh;
+    margin-left:40vh ;
+}
+.sub-container{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 50px;
+   font-size:50px ;
+    font-weight:bold;
+}
+
+
+.most{
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 8px;
+}
+
+.container2{
+    text-align: left;
+}
+.dish{
+font-size: 80px;
+text-align: left;
+color: aliceblue;
+padding-left:50px;
+
+}
+.delivery{
+    font-size: 40px;
+}
+.zomato{
+     color: aliceblue;
+     font-size:80px ;
+   
+}
+.year{
+    font-size:130px ;
+    color: aliceblue;
+    text-align: center;
+   
+}
+.footer-section{
+ text-align: center;
+}
+.footer-line{
+    color: aliceblue;
+    font-size: 30px;
+}
+.five{ 
+    
+    width: 50vh;
+    margin-left: 40vh;
+   text-align: center;
+    border-style: solid;
+cursor: pointer;
+border-radius:30px ;
+background-color: azure;
+border-width: 0;
+padding: 5px;
+display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 40px;
+}
+.image1{
+    margin-right:20px ;
+}
+.image2{
+    margin-right:20px ;
+}
+.image3{
+    margin-right:20px ;
+}
+.image4{
+    margin-right:20px ;
+}
+.image5{
+    margin-right:20px ;
+}
