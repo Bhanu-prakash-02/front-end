@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <style> 
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.timer-container {
+    background: #222;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    width: 300px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.time-btn {
+    background: #777;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.time-btn.active {
+    background: #1e90ff;
+}
+
+.timer-display p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#time-left {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+#stop-btn {
+    background: #444;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.progress-circle {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(90deg, #1e90ff, #00c3ff);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-container {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(90deg, #171d23, #242d30);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pause-icon {
+    font-size: 24px;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <div class="timer-container">
+        <div class="buttons">
+            <button class="time-btn" data-time="300">5 mins</button>
+            <button class="time-btn" data-time="600">10 mins</button>
+            <button class="time-btn active" data-time="1200">20 mins</button>
+        </div>
+        <div class="timer-display">
+            <p>Timer</p>
+            <h1 id="time-left">20:00</h1>
+            <button id="stop-btn">Stop</button>
+        </div>
+        <div class="progress-container"> 
+            <div class="progress-circle">
+                <div class="small-container">
+                <div class="pause-icon">❚❚</div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
